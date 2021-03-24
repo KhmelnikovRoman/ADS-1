@@ -22,6 +22,5 @@ int cbinsearch(int *arr, int size, int value) {
                 l += 1;}
             return (r + l - 1);}
         else if (arr[(r - l) / 2] > value) {
-            r = (r - l) / 2;}
-    }
+            r = (r - l) / 2;}}
     return 0;}
